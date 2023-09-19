@@ -26,7 +26,55 @@ function About() {
             website.</p>
         </div>
 
+        <div className="row skills-content">
+          <div className="col-lg-6" data-aos="fade-up">
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '100%' }}>
+                <span className="skill">HTML 100%</span>
+              </div>
+            </div>
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '90%' }}>
+                <span className="skill">CSS 90%</span>
+              </div>
+            </div>
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '90%' }}>
+                <span className="skill">JavaScript 90%</span>
+              </div>
+            </div>
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '80%' }}>
+                <span className="skill">PHP 80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '100%' }}>
+                <span className="skill">Figma 100%</span>
+              </div>
+            </div>
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '90%' }}>
+                <span className="skill">Photoshop 90%</span>
+              </div>
+            </div>
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '95%' }}>
+                <span className="skill">React 95%</span>
+              </div>
+            </div>
+            <div className="mb-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar bg-success" style={{ width: '85%' }}>
+                <span className="skill">Angular 85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
       <div className="container mt-5">
         <h2 className="alignCenter mb-5">Resume</h2>
         <div className="row">
